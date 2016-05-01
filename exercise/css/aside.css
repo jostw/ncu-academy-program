@@ -1,0 +1,11 @@
+.aside {
+    width: 100%;
+    padding: 1em 0;
+}
+
+@media (min-width: 768px) {
+    .aside {
+        /* float */
+        /* width */
+    }
+}

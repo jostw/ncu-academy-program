@@ -1,0 +1,37 @@
+.grid {
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.grid > .container {
+    height: 100%;
+}
+
+.column {
+    float: left;
+    width: 18.75%;
+    height: 100%;
+    margin: 0 3.125%;
+
+    background-color: rgba(255,0,0,0.1);
+}
+
+@media (min-width: 480px) {
+    .column {
+        width: 9.375%;
+        margin-right: 1.5625%;
+        margin-left: 1.5625%;
+    }
+}
+
+@media (min-width: 768px) {
+    .column {
+        width: 6.25%;
+        margin-right: 1.0416%;
+        margin-left: 1.0416%;
+    }
+}

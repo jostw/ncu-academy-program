@@ -1,0 +1,19 @@
+body {
+    position: relative;
+
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+body > .container {
+    position: relative;
+
+    min-height: 100vh;
+    padding-bottom: 6.5em;
+}
