@@ -13,8 +13,8 @@
 
 @media (min-width: 480px) {
     .aside > section {
-        /* float */
-        /* width */
+        float: left;
+        width: 50%;
         margin-bottom: 0;
     }
 }
