@@ -1,3 +1,13 @@
+.stream li {
+    margin-bottom: 1em;
+
+    list-style: none;
+}
+
+.stream li:last-child {
+    margin-bottom: 0;
+}
+
 .stream-card {
     padding: 1em;
 }
