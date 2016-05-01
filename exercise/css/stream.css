@@ -1,0 +1,85 @@
+.stream-card {
+    padding: 1em;
+}
+
+.stream-card-info {
+    margin-bottom: .5em;
+}
+
+.stream-card-info .avatar {
+    float: left;
+    margin-right: .5em;
+}
+
+.stream-card-info .image {
+    display: block;
+}
+
+.stream-card-info .name {
+    display: block;
+
+    padding: .25em;
+}
+
+.stream-card-info .date {
+    display: block;
+
+    font-size: 14px;
+    line-height: 1.25em;
+}
+
+.stream-card-content {
+    padding: .5em 0;
+}
+
+.stream-card-content .article {
+    margin-bottom: .5em;
+}
+
+.stream-card-content .images {
+    border-right: 1px solid rgba(0,0,0,0.1);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.stream-card-content .image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+    border-top: 1px solid rgba(0,0,0,0.1);
+    border-left: 1px solid rgba(0,0,0,0.1);
+}
+
+.stream-card-content .image:nth-child(n+2) {
+    display: none;
+}
+
+.stream-card-controls .status {
+    display: block;
+    padding-bottom: .25em;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+
+    font-size: 14px;
+}
+
+.stream-card-controls li {
+    float: left;
+    width: 33.3333%;
+
+    list-style: none;
+}
+
+.stream-card-controls .button {
+    display: block;
+    padding: 0 1em;
+
+    line-height: 1.5em;
+    text-align: center;
+    text-decoration: none;
+
+    color: #000;
+}
+
+.stream-card-controls .button:hover {
+    background-color: rgba(0,0,0,0.1);
+}

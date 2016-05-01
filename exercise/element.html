@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Web Design Exercise - Element</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- For grid illustration -->
+    <link rel="stylesheet" href="css/grid.css">
+
+    <!-- Custom styles in element.html -->
+    <link rel="stylesheet" href="css/stream.css">
+    <style>
+        * {
+            background-color: rgba(0,0,0,0.05);
+        }
+
+        body > .container {
+            padding-top: 3.5em;
+        }
+
+        .header > .container {
+            padding: 1em;
+        }
+
+        .footer > .container {
+            padding: 1em;
+        }
+    </style>
+</head>
+<body>
+    <!-- For grid illustration -->
+    <div class="grid">
+        <div class="container clearfix">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+    </div>
+
+    <header class="header">
+        <div class="container">Header</div>
+    </header>
+
+    <div class="container clearfix">
+        <main class="main">
+            <div class="stream-card">
+                <div class="stream-card-info clearfix">
+                    <div class="avatar">
+                        <img class="image" src="holder.js/50x50" alt="User Name" title="User Name">
+                    </div>
+                    <span class="name">User Name</span>
+                    <span class="date">2016-05-02 14:00:00</span>
+                </div>
+
+                <div class="stream-card-content">
+                    <article class="article">This is awesome!</article>
+                    <div class="images clearfix">
+                        <img class="image" src="holder.js/400x300?auto=yes" alt="Photo 1" title="Photo 1">
+                        <img class="image" src="holder.js/400x300?auto=yes" alt="Photo 2" title="Photo 2">
+                        <img class="image" src="holder.js/400x300?auto=yes" alt="Photo 3" title="Photo 3">
+                        <img class="image" src="holder.js/400x300?auto=yes" alt="Photo 4" title="Photo 4">
+                        <img class="image" src="holder.js/400x300?auto=yes" alt="Photo 5" title="Photo 5">
+                    </div>
+                </div>
+
+                <div class="stream-card-controls">
+                    <span class="status">3 people like this</span>
+                    <ul class="clearfix">
+                        <li>
+                            <a class="button" href="#" title="Like">
+                                <span class="fa fa-thumbs-o-up"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button" href="#" title="Comment">
+                                <span class="fa fa-comment-o"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="button" href="#" title="Share">
+                                <span class="fa fa-share"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <aside class="aside"></aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">Footer</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.9.3/holder.min.js"></script>
+</body>
+</html>
