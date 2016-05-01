@@ -96,7 +96,7 @@
 
 .stream-card-controls .button {
     display: block;
-    padding: 0 1em;
+    padding: .5em 1em;
 
     line-height: 1.5em;
     text-align: center;
