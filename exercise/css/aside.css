@@ -21,8 +21,8 @@
 
 @media (min-width: 768px) {
     .aside {
-        /* float */
-        /* width */
+        float: left;
+        width: 25%;
     }
 
     .aside > section {
