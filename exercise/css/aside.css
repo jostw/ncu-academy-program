@@ -26,8 +26,8 @@
     }
 
     .aside > section {
-        /* float */
-        /* width */
+        float: none;
+        width: 100%;
         margin-bottom: 1em;
     }
 }
