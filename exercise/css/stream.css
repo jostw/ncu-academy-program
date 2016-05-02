@@ -1,10 +1,10 @@
-.stream li {
+.stream .stream-card {
     margin-bottom: 1em;
 
     list-style: none;
 }
 
-.stream li:last-child {
+.stream .stream-card:last-child {
     margin-bottom: 0;
 }
 
