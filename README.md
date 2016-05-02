@@ -1,2 +1,10 @@
-# responsive-web-design-exercise
-Academy Program in National Central University
+# National Central University Academy Program
+
+## Responsive Web Design
+
+Slides: https://goo.gl/tzQVHw
+
+Exercise:
+- layout.html
+- element.html
+- index.html
