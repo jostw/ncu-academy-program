@@ -3,8 +3,19 @@
     padding: 1em 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 840px) {
     .main {
+        float: left;
+        width: 75%;
+        /* float */
+        /* width */
+    }
+}
+
+@media (min-width: 1440px) {
+    .main {
+        float: left;
+        width: 83.3333%;
         /* float */
         /* width */
     }
