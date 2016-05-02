@@ -27,11 +27,67 @@
         }
 
         body > .container {
-            padding-top: 3.5em;
+            padding-top: 3.375em;
         }
 
         .header > .container {
-            padding: 1em;
+            min-width: 640px;
+            padding: .5em;
+        }
+
+        .header-nav {
+            float: right;
+        }
+
+        .header-nav li {
+            float: left;
+
+            list-style: none;
+        }
+
+        .header-nav .link {
+            display: block;
+            width: 100px;
+            padding: .4375em 1em;
+
+            text-align: center;
+            text-decoration: none;
+
+            color: #000;
+        }
+
+        .header-nav .link:hover {
+            background-color: rgba(255,255,255,0.5);
+        }
+
+        .header-logo {
+            float: left;
+            width: 75px;
+            margin-right: 1em;
+        }
+
+        .header-logo .image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .header-search {
+            padding: .375em 0;
+        }
+
+        .header-search .input {
+            border: 0;
+            padding: 0 .5em;
+
+            background-color: rgba(255,255,255,0.5);
+        }
+
+        .header-search .submit {
+            border: 0;
+            padding: 0 1em;
+
+            line-height: 1.625em;
         }
 
         .aside-widget {
@@ -95,7 +151,30 @@
     </div>
 
     <header class="header">
-        <div class="container">Header</div>
+        <div class="container clearfix">
+            <nav class="header-nav">
+                <ul class="clearfix">
+                    <li>
+                        <a class="link" href="#" title="Link">Link</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#" title="Link">Link</a>
+                    </li>
+                    <li>
+                        <a class="link" href="#" title="Link">Link</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <a class="header-logo" href="/" title="Logo">
+                <img class="image" src="holder.js/100x50?auto=yes" alt="Logo" title="Logo">
+            </a>
+
+            <form class="header-search" action="/search">
+                <input class="input" type="text">
+                <button class="submit fa fa-search"></button>
+            </form>
+        </div>
     </header>
 
     <div class="container clearfix">
