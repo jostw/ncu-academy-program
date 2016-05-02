@@ -3,9 +3,31 @@
     padding: 1em 0;
 }
 
+.aside > section {
+    margin-bottom: 1em;
+}
+
+.aside > section:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width: 480px) {
+    .aside > section {
+        /* float */
+        /* width */
+        margin-bottom: 0;
+    }
+}
+
 @media (min-width: 768px) {
     .aside {
         /* float */
         /* width */
+    }
+
+    .aside > section {
+        /* float */
+        /* width */
+        margin-bottom: 1em;
     }
 }
