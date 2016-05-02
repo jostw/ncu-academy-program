@@ -31,3 +31,16 @@
         margin-bottom: 1em;
     }
 }
+
+@media (min-width: 1440px) {
+    .aside {
+        /* float */
+        /* width */
+    }
+
+    .aside > section {
+        /* float */
+        /* width */
+        margin-bottom: 1em;
+    }
+}
