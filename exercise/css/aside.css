@@ -23,11 +23,15 @@
 
 @media (min-width: 840px) {
     .aside {
+        float: right;
+        width: 25%;
         /* float */
         /* width */
     }
 
     .aside > section {
+        float: left;
+        width: 100%;
         /* float */
         /* width */
         margin-bottom: 1em;
